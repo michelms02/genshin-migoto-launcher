@@ -31,7 +31,7 @@ def launch_genshin_impact():
     # os.system("start steam://rungameid/123456789")
 
     # Launch Genshin Impact (non-steam)
-    print("You may keep this window open for a steam in-game status. \nThis window will automatically close when Genshin Impact is exited. \nGenshin Impact is now running with 3DMigoto.")
+    print("You may keep this window open for a steam in-game status. \nThis window will automatically close when Genshin Impact is exited. \nGenshin Impact is now running.")
     genshin_path = "C:\\Path\\to\\GenshinImpact.exe"
     genshin_args = "-popupwindow -screen-height 1080 -screen-width 1920"
     

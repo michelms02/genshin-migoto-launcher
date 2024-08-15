@@ -1,7 +1,7 @@
 import os
 
 def main():
-    if (launching_migoto()):
+    if launching_migoto():
         launch_migoto()
     
     launch_genshin_impact()
@@ -12,7 +12,7 @@ def launching_migoto():
     while(launch.lower() not in ["y", "n", "yes", "no"]):
         launch = input("Would you like to launch Genshin Impact with 3DMigoto? Y/N (Default: Y)\n")
 
-        if (launch == ""):
+        if launch == "":
             break
 
     return launch == "" or launch.casefold() == "y" or launch.casefold() == "yes"

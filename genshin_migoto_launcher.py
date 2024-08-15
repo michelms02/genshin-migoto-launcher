@@ -9,7 +9,7 @@ def main():
 def launching_migoto():
     launch = ""
 
-    while(launch.lower() not in ["y", "n", "yes", "no"]):
+    while launch.lower() not in ["y", "n", "yes", "no"]:
         launch = input("Would you like to launch Genshin Impact with 3DMigoto? Y/N (Default: Y)\n")
 
         if launch == "":
